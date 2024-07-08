@@ -1,6 +1,8 @@
 class Solution {
     public int countDays(int days, int[][] meetings) {
-        
+        if(meetings.length==0){
+            return days;
+        }
         // for(int i=0;i<meetings.length-1;i++){ 
         //     for(int j=i+1;j<meetings.length;j++){  
         //     int a=meetings[i][0];
